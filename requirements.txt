@@ -1,0 +1,8 @@
+pandas
+numpy
+torch
+scikit-learn
+statsmodels
+pmdarima
+prophet
+vnstock

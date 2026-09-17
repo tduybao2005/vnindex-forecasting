@@ -1,0 +1,15 @@
+__pycache__/
+*.pyc
+.venv/
+
+# Editor and local tooling state
+.claude/
+.idea/
+.vscode/
+
+# Secrets
+.env
+key-*.txt
+
+# Intermediate build of the hourly series; 03_preprocess.py regenerates it
+data/VNINDEX_1h_data.csv

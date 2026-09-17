@@ -1,0 +1,4 @@
+- Use 10-years data set (data frame) to run the ARIMA or Prophet model. 
+- Use the result of ARIMA/Prophet as a baseline (comparision benchmark)
+- after that, create the newly scratch minutes frame data set to train the LSTM model (1 hour/1 frame)
+- Comparison: report the comparision result between two approaches: "When using a day frame with a traditional model vs. When using a minute frame with a Deep Learning model"
